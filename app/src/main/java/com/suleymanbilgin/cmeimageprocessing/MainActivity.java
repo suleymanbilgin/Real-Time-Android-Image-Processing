@@ -31,6 +31,12 @@ import org.opencv.imgproc.Imgproc;
 
 import java.util.Arrays;
 
+/**
+ * Created by Laptop on 22.10.2015.
+ *
+ * @author Süleyman Bilgin
+ * @since 1.0
+ */
 public class MainActivity extends AppCompatActivity implements
         NavigationView.OnNavigationItemSelectedListener, CameraBridgeViewBase.CvCameraViewListener2 {
 
@@ -87,9 +93,8 @@ public class MainActivity extends AppCompatActivity implements
         mOpenCvCameraView.setCvCameraViewListener(this);
 
         init();
-        // İlk başta hangi fragment açılacaksa o belirleniyor.
         if (null == savedInstanceState) {
-            mNavItemId = R.id.rgb; //Drawer'daki id'ye göre
+            mNavItemId = R.id.rgb;
         } else {
             mNavItemId = savedInstanceState.getInt(NAV_ITEM_ID);
         }
@@ -251,18 +256,12 @@ public class MainActivity extends AppCompatActivity implements
         getSupportActionBar().setTitle(getString(R.string.rgb));
     }
 
-    /**
-     * Bu metod navigation drawerı oluşturuyor
-     */
     public void drawerLayoutSetup() {
-        // Navigasyon olaylarını dinler
         NavigationView navigationView = (NavigationView) findViewById(R.id.navigation);
         navigationView.setNavigationItemSelectedListener(this);
 
-        // navigasyon elemanı seçimi
         navigationView.getMenu().findItem(mNavItemId).setChecked(true);
 
-        // hamburger ikonu aç kapa
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.open,
                 R.string.close);
         mDrawerLayout.setDrawerListener(mDrawerToggle);
@@ -271,11 +270,6 @@ public class MainActivity extends AppCompatActivity implements
         navigate(mNavItemId);
     }
 
-    /**
-     * Bu metod fragmenti activiteye tutturur. İsteklerinize göre özelleştirebilirsiniz.
-     *
-     * @param itemId navigasyon drawerdaki itemın id'si
-     */
     private void navigate(final int itemId) {
         Fragment f = null;
         switch (itemId) {

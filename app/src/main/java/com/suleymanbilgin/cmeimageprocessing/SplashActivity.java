@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by Laptop on 22.10.2015.
+ *
+ * @author Süleyman Bilgin
+ * @since 1.0
  */
 public class SplashActivity extends AppCompatActivity {
     @Override

@@ -11,6 +11,9 @@ import com.suleymanbilgin.cmeimageprocessing.R;
 
 /**
  * Created by Laptop on 22.10.2015.
+ *
+ * @author Süleyman Bilgin
+ * @since 1.0
  */
 public class InfoActivity extends AppCompatActivity {
     Toolbar toolbar;
