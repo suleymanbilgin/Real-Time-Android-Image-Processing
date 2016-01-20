@@ -1,6 +1,6 @@
-# Android-Image-Processing
+# Real Time Android Image Processing
 ==================
-This project is an example for image processing with OpenCV and Android SDKs
+This project is an example for real time image processing with OpenCV and Android SDKs
 
 ## What does this project contain?
 ------------------
