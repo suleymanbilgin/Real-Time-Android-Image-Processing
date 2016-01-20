@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CME429 Image Processing</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="three">Three</string>
+    <string name="rgb">RGB</string>
+    <string name="negative">Negative</string>
+    <string name="log_transform">Log Transform</string>
+    <string name="power_law_transform">Power Law Transform</string>
+
+    <string name="open">Open</string>
+    <string name="info">Info</string>
+    <string name="close">Close</string>
+</resources>

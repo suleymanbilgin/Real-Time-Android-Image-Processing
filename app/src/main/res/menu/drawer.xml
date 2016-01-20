@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Slider menü -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rgb"
+            android:title="@string/rgb"/>
+        <item
+            android:id="@+id/negative"
+            android:title="@string/negative"/>
+        <item
+            android:id="@+id/log_transform"
+            android:title="@string/log_transform"/>
+        <item
+            android:id="@+id/power_law_tranform"
+            android:title="@string/power_law_transform"/>
+    </group>
+</menu>
