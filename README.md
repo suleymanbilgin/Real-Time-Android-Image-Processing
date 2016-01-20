@@ -12,10 +12,10 @@ This project is an example for image processing with OpenCV and Android SDKs
 ------------------
 You can find this application in [Google Play Store](https://play.google.com/store/apps/details?id=com.suleymanbilgin.cmeimageprocessing/).
 
-![1](/path/to/image.jpg)
+![1](1.png)
 
-![2](/path/to/image.jpg)
+![2](2.png)
 
-![3](/path/to/image.jpg)
+![3](3.png)
 
-![4](/path/to/image.jpg)
+![4](4.png)
