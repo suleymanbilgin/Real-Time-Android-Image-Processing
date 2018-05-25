@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android-Image-Processing.iml" filepath="$PROJECT_DIR$/Android-Image-Processing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Real-Time-Android-Image-Processing.iml" filepath="$PROJECT_DIR$/Real-Time-Android-Image-Processing.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/opencv/opencv2.iml" filepath="$PROJECT_DIR$/opencv/opencv2.iml" />
     </modules>
